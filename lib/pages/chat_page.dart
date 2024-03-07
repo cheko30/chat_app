@@ -73,7 +73,7 @@ class _ChatPageState extends State<ChatPage> with TickerProviderStateMixin{
   @override
   Widget build(BuildContext context) {
 
-    final usuarioPara = chatService!.usuarioPara;
+    final usuarioPara = chatService.usuarioPara;
 
     return Scaffold(
       appBar: AppBar(
